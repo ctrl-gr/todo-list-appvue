@@ -1,10 +1,14 @@
 <template>
-
+<input type="checkbox" :checked="completed" @change="$emit('update:completed', $event.target.checked)" />
 </template>
 
 <script>
 export default {
-  name: "BaseCheckBox"
+  name: "BaseCheckBox",
+  props: {
+    text: String,
+    completed: Boolean
+  }
 }
 </script>
 
