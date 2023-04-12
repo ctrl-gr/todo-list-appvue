@@ -56,7 +56,7 @@ export default {
       todos: [
         {id: id++, text: 'Shopping'},
         {id: id++, text: 'Football'},
-        {id: id++, text: 'Say hi'}
+        {id: id++, text: 'Say Hi'}
       ],
     }
   },
